@@ -1,0 +1,30 @@
+.Notfound .container {
+  padding-top: 50px;
+}
+
+.Login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+}
+
+.Login .container, .Login .row, .Login .col-6 {
+ height: 100%;   
+}
+
+.Login .container .row .col-6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Dashboard .container {
+  padding-top: 50px;
+}
+
+.Dashboard .navbar .navbar-text {
+  width: 100%;
+  text-align: right;
+}
